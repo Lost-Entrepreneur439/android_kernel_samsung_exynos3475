@@ -61,7 +61,7 @@ obj-$(CONFIG_MACH_UNIVERSAL3475) += bcmdhd/dhd_custom_exynos.o
 endif
 
 ifneq ($(CONFIG_BCM43454),)
-obj-$(CONFIG_BCM4343)	+= bcmdhd/
+obj-$(CONFIG_BCM43454)	+= bcmdhd/
 obj-$(CONFIG_MACH_UNIVERSAL3475) += bcmdhd/dhd_custom_exynos.o
 endif
 
